@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PreciseWeather</string>
+    <string name="hello_earth">Hello Earth</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="temperature_of_the_city">Temperature of the city</string>
+    <string name="owm_api_key">43fe0ffee8d3dd5ecbb695fe3c767958</string>
+    <string name="no_data_available">No Data available</string>
+</resources>
