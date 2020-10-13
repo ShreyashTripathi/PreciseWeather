@@ -25,7 +25,16 @@ public class MainActivityViewModel extends ViewModel {
                 weatherResponseLiveData.postValue(weatherResponse);
             }
         },latitude,longitude);
+        return weatherResponseLiveData;
+    }
 
+    public MutableLiveData<WeatherResponse> getWeatherData(String cityName){
+        WeatherDataRepo repo = new WeatherDataRepo(new GetWeatherData() {
+            @Override
+            public void onGetWeatherData(WeatherResponse weatherResponse) {
+                weatherResponseLiveData.postValue(weatherResponse);
+            }
+        },cityName);
         return weatherResponseLiveData;
     }
 }

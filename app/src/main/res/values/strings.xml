@@ -2,7 +2,21 @@
     <string name="app_name">PreciseWeather</string>
     <string name="hello_earth">Hello Earth</string>
     <string name="enter_city_name">Enter city name</string>
-    <string name="temperature_of_the_city">Temperature of the city</string>
+    <string name="temperature_of_the_city">Temperature</string>
     <string name="owm_api_key">43fe0ffee8d3dd5ecbb695fe3c767958</string>
     <string name="no_data_available">No Data available</string>
+    <string name="precise_weather">Precise Weather</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="weather">Weather</string>
+    <string name="date_n_time">Date n Time</string>
+    <string name="feels_like">Feels like</string>
+    <string name="current_location">Current Location</string>
+    <string name="desc">desc</string>
+    <string name="value">value</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
 </resources>
